@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Backgrounds */
+
+#header-bg{
+    background-image: url(imgs/bgs/office-381228.jpg);
+    height: 85vh;
+}
+
+#services-area{
+    height: 100vh;
+}
+
+#services-area-bg{
+    height: 100%;
+    background-image: url(imgs/bgs/notebook-1280538_1920.jpg);
+    /* falta aplicar o gradiente preto em cima do bg */
+}
+
+.parallax-bg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Navbar */
+
+#navbar{
+    height: 15vh;
+}
