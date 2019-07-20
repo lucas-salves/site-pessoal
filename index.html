@@ -4,105 +4,112 @@
     <meta charset="UTF-8">
     <title>Lucas Sousa Alves - Desenvolvedor Web</title>
     <link rel="stylesheet" href="style.css">
+    <script src="homepage-scroll.js"></script>
 </head>
 
 <body>
     <div id="header">
         <header>
-            <div id="navbar">
-                <div id="site-title-wrapper">
-                    <h1>Lucas Sousa Alves</h1>
-                    <h2>Desenvolvedor Web | PHP | Wordpress</h2>
-                </div>
-                <nav>
-                    <div class="social-icons">
-                        <!-- Icones das redes sociais -->
+           <div id="sobreposicao">
+                <div id="navbar">
+                    <div id="site-title-wrapper">
+                        <h1>Lucas Sousa Alves</h1>
+                        <h2>Desenvolvedor Web | PHP | Wordpress</h2>
                     </div>
-                </nav>
+                    <nav>
+                        <div class="social-icons">
+                            <!-- Icones das redes sociais -->
+                        </div>
+                    </nav>
+                </div>
+                <section id="header-slider-panel">
+                    <article>
+                        <img src="imgs/content/avatar.png" alt="">
+                        <p> <span class="text-tab"> Formado </span> em análise e desenvolvimento de sistemas, atuo como desenvolvedor web freelancer em São Paulo - SP, desenvolvendo páginas para internet e lojas virtuais com otimização SEO e estratégias de marketing digital.</p>
+                    </article>
+                    
+                    <div id="slider-container">
+                        <button  id="btn-scrolldown-header" class="scroll-down-arrows hide-elements"> <img src="imgs/icons/download-arrow.svg" alt=""> </button>
+                        <div id="header-slider-buttons">
+                           <button> <img src="imgs/icons/back-arrow.png" alt=""> </button>
+                           <button> <img src="imgs/icons/next-arrow.png" alt=""> <span id="btn-align">.</span></button>                
+                        </div>                        
+                    </div>
+              
+               
+                </section>
+                
             </div>
-
             <div id="header-bg" class="parallax-bg">
                 <!-- Imagem de fundo do header  -->
             </div>
-
-            <section id="header-slider-panel">
-                <article>
-                    <img src="" alt="">
-                    <p>Formado em análise e desenvolvimento de sistemas, atuo como desenvolvedor web freelancer em São Paulo - SP, desenvolvendo páginas para internet e lojas virtuais com otimização SEO e estratégias de marketing digital.</p>
-                </article>
-            </section>
-            <div id="header-slider-buttons">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
+                        
         </header>
     </div>
 
-    <div id="services-area">
-    <div id="services-area-bg" class="parallax-bg"></div>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Criação de sites</h3>
-                <p>Desenvolvimento e publicação de Hotsites, landing pages, portfólios e páginas institucionais</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Manutenção - Edição</h3>
-                <p>Ajustes em sites</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>SEO</h3>
-                <p>Otimização para mecanismos de busca</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Lojas virtuais / E-commerce</h3>
-                <p>Desenvolvimento e publicação de páginas para produtos ou lojas virtuais</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Sistemas Web</h3>
-                <p>Análise e desenvolvimento de sistemas web</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Aplicativos</h3>
-                <p>Desenvolvimento de aplicativos para dispositivos móveis</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Desenvolvedor Fullstack</h3>
-                <p>Desenvolvimento</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3>Outros</h3>
-                <p>Disparos de e-mails marketing, hospedagem, etc</p>
-            </article>
-        </section>
-        <section id="services-area-container">
-            <article class="services-items">
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </article>
-        </section>
+    <div id="services-area">    
+    <div id="services-area-bg" class="parallax-bg">
+        <div id="services-header">
+            <h2 id="service-title" class="hide-elements">Serviços</h2>
+            <section id="services-area-container" class="hide-elements">
+                <article class="services-items">
+                    <img src="imgs/icons/criacao-site-svg.svg" alt="">
+                    <h3>Criação de sites</h3>
+                    <p>Desenvolvimento e publicação de Hotsites, landing pages, portfólios e páginas institucionais</p>
+                </article>
+                <article class="services-items">
+                    <img src="imgs/icons/tools.svg" alt="">
+                    <h3>Manutenção - Edição</h3>
+                    <p>Ajustes em sites</p>
+                </article>
+
+
+                <article class="services-items">
+                    <img src="imgs/icons/analysis.svg" alt="">
+                    <h3>SEO</h3>
+                    <p>Otimização para mecanismos de busca</p>
+                </article>
+
+
+                <article class="services-items">
+                    <img src="imgs/icons/online-shop.svg" alt="">
+                    <h3>Lojas virtuais / E-commerce</h3>
+                    <p>Desenvolvimento e publicação de páginas para produtos ou lojas virtuais</p>
+                </article>
+
+
+                <article class="services-items">
+                    <img src="imgs/icons/accounting.svg" alt="">
+                    <h3>Sistemas Web</h3>
+                    <p>Análise e desenvolvimento de sistemas web</p>
+                </article>
+
+
+                <article class="services-items">
+                    <img src="imgs/icons/android-logo.svg" alt="">
+                    <h3>Aplicativos</h3>
+                    <p>Desenvolvimento de aplicativos para dispositivos móveis</p>
+                </article>
+
+                <article class="services-items">
+                    <img src="imgs/icons/domain.svg" alt="">
+                    <h3>Desenvolvedor Fullstack</h3>
+                    <p>Desenvolvimento</p>
+                </article>
+
+
+                <article class="services-items">
+                    <img src="imgs/icons/cloud-computing.svg" alt="">
+                    <h3>Outros</h3>
+                    <p>Disparos de e-mails marketing, hospedagem, etc</p>
+                </article>
+                
+            </section>
+        </div>
+    </div>
+        
+        
+            
     </div>
 
     <div id="jobs-area">
