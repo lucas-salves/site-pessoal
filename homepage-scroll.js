@@ -4,7 +4,6 @@ window.onload = function(){
 	let titleService = document.getElementById('service-title');
 	let servicesAreaContainer = document.getElementById('services-area-container');
 	
-	console.log(titleService);
 	//logica dos botoes de scroll
 	btnDownArrows[0].addEventListener("click", function(){
 		document.getElementById('services-area').scrollIntoView({
