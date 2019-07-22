@@ -147,7 +147,7 @@ body{
 }
 
 .hide-elements{
-    opacity: 0;
+    opacity: 1;
 }
 
 #btn-scrolldown-header img{
@@ -156,6 +156,10 @@ body{
     cursor: pointer;
 }
 #h2-service{
+    opacity: 1;
+}
+
+#service-title{
     opacity: 0;
 }
 
@@ -202,6 +206,7 @@ body{
     margin: 0 auto;
     box-sizing: border-box; 
     margin-top: 100px;
+    opacity: 0;
 }
 
 .services-items{
