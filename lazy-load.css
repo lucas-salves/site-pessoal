@@ -1,61 +1,6 @@
-#site-title-wrapper h1{
-    animation: siteTitle 1s;
-}
-
-#site-title-wrapper h2{
-    animation: descTitle 2s;
-}
-
-#header-slider-panel article img{
-    animation: headerImage 5s;
-}
-
-#header-slider-panel p{
-    animation: aboutText 5s;
-}
-
-#btn-scrolldown-header{
-    animation: btnHeaderScrollDown 10s;
-}
-
-#header-slider-buttons{
-    animation: btnSlider 15s;
-}
-
-
-
-@keyframes siteTitle{
+@keyframes lazyLoadFade{
     from{opacity: 0;}
     to{opacity: 1;}
 }
 
-@keyframes descTitle{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes headerImage{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes aboutText{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes btnHeaderScrollDown{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes btnSlider{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-
-@keyframes services{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
 
