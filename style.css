@@ -25,7 +25,7 @@ body{
 }
 
 #services-area{
-    height: 180vh;
+    height: 1600px;
 }
 
 #services-area-bg{
@@ -92,6 +92,12 @@ body{
     padding-top: 75px;
 }
 
+
+#header-slider-panel article p{
+    font-family: 'Cutive Mono', monospace;        
+    font-size: 1.4em;
+}
+
 #header-slider-panel p{
     color: #919191;
     width: 50%;
@@ -135,8 +141,10 @@ body{
 }
 
 #about-text{
-    opacity: 0;
+    opacity: 0;    
 }
+
+
 
 #header-slider-buttons button:nth-child(2){
     display: flex;
@@ -176,6 +184,8 @@ body{
 
 #service-title{
     opacity: 0;
+    font-size: 3em;
+    font-family: 'Cutive Mono', monospace;
 }
 
 #slider-container{
@@ -185,6 +195,10 @@ body{
 }
 
 /* services area */
+
+#services-area{
+    font-family: 'Cutive Mono', monospace;
+}
 
 #services-header{
     height: 100%;
@@ -201,11 +215,18 @@ body{
 }
 
 #services-header article p{
-    color: white;
+    color: #d4d4d4;
+    text-align: justify-all;    
+    font-size: 1.1em;
+    font-family: serif;
+    text-shadow: 2px 2px 8px black;
 }
 
 #services-header h3{
     color: #9c4f1cff;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 1.4em;
 }
 
 .services-items img{
@@ -225,11 +246,69 @@ body{
 }
 
 .services-items{
-    height: 200px;
+    height: 290px;
     width: 250px;
     padding: 10px;
+    padding-top: 40px;
     text-align: center;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.52); 
+    background-color: rgba(0, 0, 0, 0.62); 
     margin: 30px 35px;
+}
+
+/* footer area */
+
+footer{
+    height: 100vh;
+    background-color: black;
+}
+
+#footer-wrapper{
+    padding-top: 100px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#footer-wrapper p, #footer-wrapper h2{
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+}
+
+#footer-wrapper h2{
+    font-size: 5em;
+}
+
+#footer-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+.footer-item{
+    padding: 30px;
+    margin: 10px 40px;
+    max-width: 300px;
+    text-align: center;    
+    transition: .2s;
+    box-sizing: border-box;
+}
+
+.footer-item *{
+    margin: 5px;
+}
+
+.footer-item p{
+    font-size: 1em;
+    transition: .2s;
+}
+
+.footer-item:hover > p{
+    font-weight: bold;
+}
+
+.footer-item:hover{
+    background-color: #1d1d1d;
 }

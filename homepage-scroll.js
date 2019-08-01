@@ -32,7 +32,7 @@ window.onload = function(){
    
     window.addEventListener("scroll", scrollFadeElements);
     function scrollFadeElements(){
-        if(window.pageYOffset > 680){
+        if(window.pageYOffset > 640){
            if(flag){
                 flag = false;               
                serviceTitle.style.animation = 'lazyLoadFade 1s';
